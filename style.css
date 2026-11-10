@@ -1,0 +1,93 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f1ff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 350px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    font-size: 25px;
+}
+
+input {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 25px;
+    background-color: #3478db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2059aa;
+}
+
+.card {
+    background-color: #d5e6ff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.card h2 {
+    color: #333;
+    text-transform: capitalize;
+}
+
+.informacoes {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.info {
+    background-color: white;
+    width: 50%;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.info h3 {
+    color: #777;
+    font-size: 14px;
+}
+
+.info p {
+    font-weight: bold;
+    color: #333;
+}
+
+#mensagem {
+    color: red;
+}
+
+.foto-fundo {
+    width: 350px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}

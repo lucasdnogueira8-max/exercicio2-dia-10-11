@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Pokemon</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Consulta de Pokemon</h1>
+
+        <input type="text" id="nomePokemon" placeholder="Digite o nome do Pokemon">
+
+        <button onclick="buscarPokemon()">Pesquisar</button>
+
+        <p id="mensagem"></p>
+       <img class="foto-fundo" src="imagem/pokemosn-do-ash-1920x1080.jpg" alt="Pokemons do Ash">
+
+        <div id="resultado" class="card">
+
+            <img id="imagem" src="" alt="Imagem do Pokemon">
+            
+            
+
+            <h2 id="nome"></h2>
+
+            <p id="id"></p>
+
+            <div class="informacoes">
+
+                <div class="info">
+                    <h3>Altura</h3>
+                    <p id="altura"></p>
+                </div>
+
+                <div class="info">
+                    <h3>Peso</h3>
+                    <p id="peso"></p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
